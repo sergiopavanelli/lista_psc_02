@@ -20,5 +20,7 @@ public class ListaPsc02_08 {
     System.out.println("A soma dos 5 números digitados é: " + soma);
     System.out.println("A media dos 5 números digitados é: " + media);
 
+    teclado.close();
+        
     }
 }
