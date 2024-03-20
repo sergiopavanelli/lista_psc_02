@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ListaPsc02_08 {
+public class listaPsc02_08 {
     public static void main(String[] args) {
 
     Scanner teclado = new Scanner(System.in);
