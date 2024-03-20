@@ -1,4 +1,4 @@
-public class ListaPsc02_09 {
+public class listaPsc02_09 {
     public static void main(String[] args) {
         
         int i = 1;
