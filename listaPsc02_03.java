@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ListaPsc02_03 {
+public class listaPsc02_03 {
 
     public static void main(String[] args) {
 
