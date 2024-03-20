@@ -8,7 +8,7 @@ public class ListaPsc02_07 {
         float maior = Float.MIN_VALUE;
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Digite o número " + (i+1) + ": ");
+            System.out.println("Digite o número " + (i + 1) + ": ");
             float numero = teclado.nextFloat();
       
             if (numero > maior) {
