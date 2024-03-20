@@ -1,4 +1,3 @@
-
 public class ListaPSC02_04 {
     public static void main(String[] args) {
 
