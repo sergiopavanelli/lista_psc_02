@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
-public class listaPsc02_31 {
+public class Main {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
