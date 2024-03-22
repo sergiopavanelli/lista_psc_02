@@ -22,7 +22,7 @@ public class Main {
 
         } while (continuar == 's' || continuar == 'S');
 
-        System.out.println("A soma das " + N_notas + " informadas é " + soma_notas);
+        System.out.println("A média aritmética das " + N_notas + " informadas é " + (soma_notas / N_notas));
 
         teclado.close();
 
