@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class listaPsc02_30 {
+public class Main {
 
     public static void main(String[] args) {
 
