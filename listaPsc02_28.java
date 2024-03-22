@@ -18,7 +18,7 @@ public class Main {
         valor_total_cds += teclado.nextFloat();
     }
 
-    System.out.println("O valor total investido pelo colecionar em sua coleção de CD's é: R$ " + valor_total_cds);
+    System.out.println("O valor total investido pelo colecionador em sua coleção de CD's é: R$ " + valor_total_cds);
     System.out.println("O valor médio gasto em cada CD é: R$ " + (valor_total_cds / quant_cds));
 
     teclado.close();
