@@ -13,6 +13,8 @@ public class Main {
     System.out.println("Digite o número de produtos para montagem da tabela de preços: ");
     n_produtos = teclado.nextInt();
 
+    System.out.println("Lojas Quase Dois - Tabela de preços:");
+
     for (int i = 1; i <= n_produtos; i++) {
 
         System.out.println( i + " - R$ " + deci.format(preco*i));    
