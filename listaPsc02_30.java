@@ -18,7 +18,7 @@ public class Main {
     preco_pao = teclado.nextDouble();
 
     System.out.println("Preço do pão" + " - R$ " + deci.format(preco_pao));
-    System.out.println("Panificadora pão de ontem - Tabela de preços:");
+    System.out.println("Panificadora Pão de ontem - Tabela de preços:");
 
     for (int i = 1; i <= n_paes; i++) {
 
