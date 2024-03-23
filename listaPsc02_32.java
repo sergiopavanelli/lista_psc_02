@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
         System.out.print("Digite um número inteiro para calcular o fatorial: ");
-        int numero = scanner.nextInt();
+        int numero = teclado.nextInt();
 
         long fatorial = calcularFatorial(numero);
 
@@ -19,7 +19,7 @@ public class Main {
         }
         System.out.println(" = " + fatorial);
 
-        scanner.close();
+        teclado.close();
     }
 
     public static long calcularFatorial(int n) {
