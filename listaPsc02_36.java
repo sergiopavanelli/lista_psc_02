@@ -13,11 +13,21 @@ public class Main {
         System.out.println("Informe um número inteiro para montagem da tabuada: ");
         N = teclado.nextInt();
 
-        System.out.println("Informe o primeiro número da tabuada: ");
-        nInicial = teclado.nextInt();
+        do {    
 
-        System.out.println("Informe o último número da tabuada: ");
-        nFinal = teclado.nextInt();
+            System.out.println("Informe o primeiro número da tabuada: ");
+            nInicial = teclado.nextInt();
+
+            System.out.println("Informe o último número da tabuada: ");
+            nFinal = teclado.nextInt();
+
+  
+            if (nFinal < nInicial){
+
+            System.out.println("O segundo número deve ser maior que o primeiro.");
+            }
+
+        } while (nFinal < nInicial);
   
      
         System.out.println(" Vou montar a tabuada de " + N + " começando em " + nInicial + " e terminando em " + nFinal + ":");
