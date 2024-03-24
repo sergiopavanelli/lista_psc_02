@@ -61,6 +61,8 @@ public class Main {
             menorSalto = Math.min(menorSalto, salto5);
             maiorSalto = Math.max(maiorSalto, salto5);
             count++;
+
+            teclado.nextLine();
             
            double somaSaltos = salto1 + salto2 + salto3 + salto4 + salto5;
            double mediaExcPiorMelhor = (somaSaltos - menorSalto - maiorSalto) / (count - 2);
