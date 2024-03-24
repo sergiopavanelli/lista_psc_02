@@ -23,7 +23,7 @@ public class Main {
         while (true) {
 
             System.out.println("Digite o Nome do atleta ou zero (0) para encerrar o programa): ");
-            nomeAtleta = teclado.next();
+            nomeAtleta = teclado.nextLine();
 
             if (nomeAtleta.equals("0")) {
                 break;
